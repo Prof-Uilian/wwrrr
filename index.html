@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Confirmação</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Tem certeza que deseja continuar?</h1>
+  <div class="buttons">
+    <button id="yes" onclick="proceed()">Sim</button>
+    <button id="no" onclick="exit()">Não</button>
+  </div>
+  <script>
+    function proceed() {
+      window.location.href = "contagem.html";
+    }
+
+    function exit() {
+      alert("Tudo bem, talvez outra hora! 😊");
+    }
+  </script>
+</body>
+</html>
