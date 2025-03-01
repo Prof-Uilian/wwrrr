@@ -1,25 +1,20 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Confirmação</title>
+  <title>Jogo de Perguntas</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>Tem certeza que deseja continuar?</h1>
-  <div class="buttons">
-    <button id="yes" onclick="proceed()">Sim</button>
-    <button id="no" onclick="exit()">Não</button>
+  <div id="game-container">
+    <h1 id="question-title">Pergunta 1</h1>
+    <p id="question-text"></p>
+    <input  id="answer-input" placeholder="Digite sua resposta">
+    <button id="submit-btn">Enviar</button>
+    <p id="feedback"></p>
   </div>
-  <script>
-    function proceed() {
-      window.location.href = "contagem.html";
-    }
 
-    function exit() {
-      alert("Tudo bem, talvez outra hora! 😊");
-    }
-  </script>
+  <script src="script.js"></script>
 </body>
 </html>
