@@ -52,7 +52,7 @@ function loadQuestion() {
     // Final do jogo
     questionTitle.textContent = "Obrigado por tudo";
     questionText.innerHTML = `
-      Meu amor... Lembra da crise de ansiedade que tive ontem? Eu estava me sentindo sufocado, tentando lutar contra algo que parecia grande demais pra mim. Naquele momento, eu precisava tanto de você do meu lado, mas você foi embora. E eu não te culpo... talvez eu também não tenha sabido pedir ajuda direito. Mesmo assim, nunca deixei de te amar. Você foi importante pra mim, mesmo que as coisas não tenham dado certo.
+      Meu amor... Lembra da crise de ansiedade que tive ? Eu estava me sentindo sufocado, tentando lutar contra algo que parecia grande demais pra mim. Naquele momento, eu precisava tanto de você do meu lado, mas você foi embora. E eu não te culpo... talvez eu também não tenha sabido pedir ajuda direito.Obrigado pelas risadas e palhaçadas pela primeira vez da minha vida eu senti que era pra ser vc quem me daria a melhor parte da vida, se cuida manda um abraço para a sogrinha, Mesmo assim, nunca deixarei de te amar. Você foi importante pra mim, mesmo que as coisas não tenham dado certo.
       <br><br>
       Minhas filhas... Vocês são o motivo pelo qual eu tentei continuar tantas vezes. Mas agora, sinto que não consigo mais lutar contra isso. Não pensem que estou abandonando vocês. Saibam que eu amo cada uma de vocês com todo o meu coração. Nos seus avós, vocês vão encontrar um amor enorme que vai cuidar de vocês quando eu já não puder. Cresçam sabendo que sempre foram minha maior alegria.
       <br><br>
